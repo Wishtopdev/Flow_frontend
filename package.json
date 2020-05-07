@@ -5,7 +5,8 @@
     "homepage": "https://keenthemes.com/metronic/preview/react/demo1",
     "scripts": {
         "serve": "cp-cli build _site/react/preview/react/react-new/demo1 && serve",
-        "start": "react-scripts start -o",
+        // "start": "react-scripts start -o",
+        "start": "node server/server.js",
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
@@ -53,6 +54,7 @@
         "css-mediaquery": "0.1.2",
         "date-fns": "2.8.1",
         "downshift": "3.4.2",
+        "express": "^4.17.1",
         "fg-loadcss": "2.1.0",
         "formik": "2.0.6",
         "json2mq": "0.2.0",
