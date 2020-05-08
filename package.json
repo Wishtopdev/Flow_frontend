@@ -1,19 +1,14 @@
 {
     "name": "flow-frontend",
     "version": "0.0.1",
-    "engines": {
-        "node": "12.16.x"
-    },
     "private": true,
     "homepage": "https://keenthemes.com/metronic/preview/react/demo1",
     "scripts": {
         "serve": "cp-cli build _site/react/preview/react/react-new/demo1 && serve",
-        "dev": "react-scripts start -o",
-        "start": "serve -s build",
+        "start": "react-scripts start -o",
         "build": "react-scripts build",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
-        "heroku-postbuild": "npm run build",
         "lint": "eslint src",
         "format": "prettier --write \"src/**/*.{js,css,scss,html}\"",
         "rtl": "webpack"
