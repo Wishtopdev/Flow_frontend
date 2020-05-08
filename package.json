@@ -1,6 +1,9 @@
 {
     "name": "flow-frontend",
     "version": "0.0.1",
+    "engines": {
+        "node": "12.16.x"
+    },
     "private": true,
     "homepage": "https://keenthemes.com/metronic/preview/react/demo1",
     "scripts": {
